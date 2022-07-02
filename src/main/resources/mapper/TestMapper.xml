@@ -3,7 +3,7 @@
 <mapper namespace="com.example.calender.mapper.TestMapper">
 
     <insert id="insert" parameterType="com.example.calender.dto.DateDto">
-        insert into test (dt) values (#{dto.date})
+        insert into test (dt,ti) values (#{dto.date},#{dto.time})
     </insert>
 
 </mapper>

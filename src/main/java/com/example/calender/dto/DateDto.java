@@ -9,4 +9,6 @@ public class DateDto {
 
     private Date date;
 
+    private String time;
+
 }
