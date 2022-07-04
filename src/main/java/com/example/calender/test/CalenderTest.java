@@ -100,6 +100,7 @@ public class CalenderTest {
 //        Date date1 = DateUtils.parseDate(format1, "yyyy-MM-dd");
 //        System.out.println(date1);
 
+
         SimpleDateFormat sdf1 = new SimpleDateFormat("yyyyMMdd");
         Date date1 = sdf1.parse("20220703");
         System.out.println(date1);
@@ -107,6 +108,26 @@ public class CalenderTest {
         SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM-dd");
         Date date2 = sdf2.parse("2022-07-03");
         System.out.println(date2);
+
+        SimpleDateFormat sdf3 = new SimpleDateFormat("yyyy-MM");
+        Date date3 = sdf3.parse("2022-07");
+        System.out.println(date3);
+
+        SimpleDateFormat sdf4 = new SimpleDateFormat("yyyyMM");
+        Date date4 = sdf4.parse("202207");
+        System.out.println(date4);
+
+        SimpleDateFormat sdf5 = new SimpleDateFormat("yyyy");
+        Date date5 = sdf5.parse("2022");
+        System.out.println(date5);
+
+        SimpleDateFormat sdf6 = new SimpleDateFormat("yyyyMMdd HHmmss");
+        Date date6 = sdf6.parse("20220703 090910");
+        System.out.println(date6);
+
+        SimpleDateFormat sdf7 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Date date7 = sdf7.parse("2022-07-03 09:09:10");
+        System.out.println(date7);
 
     }
 }
