@@ -19,18 +19,15 @@ public class CalenderTest {
 //        System.out.println("分:" + cal.get(Calendar.MINUTE));
 //        System.out.println("秒:" + cal.get(Calendar.SECOND));
 
-
 //        Calendar calendar = Calendar.getInstance();
 //        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
 //        String now = sdf.format(calendar.getTime());
 //        System.out.println(now);
 
-
 //        Calendar calendar = Calendar.getInstance();
 //        calendar.add(calendar.MONTH, -1);
 //        String lastMonth = new SimpleDateFormat("yyyy-MM").format(calendar.getTime());
 //        System.out.println(lastMonth);
-
 
 //        Calendar calendar = Calendar.getInstance();
 //        calendar.add(calendar.DATE, -1);
